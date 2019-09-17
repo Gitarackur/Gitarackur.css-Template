@@ -1,0 +1,210 @@
+@media only screen and (max-width: 600px){
+	
+* {
+    padding : 0;
+    margin : 0;
+	box-sizing: border-box;
+}
+
+body {
+    background : white;
+    color : black;
+	font-size: 1em;
+}
+
+#totalimg{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/twoo.jpg");
+	background-size: cover;
+	position: relative;
+	top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+
+	
+	
+	
+	
+	
+	
+.SignupIndicator{
+	background-color: #2070D0;
+	color: white;
+	width: 85%;
+	position: relative;
+	left: 7.5%;
+	padding: 50px;
+	border-radius: 20px 20px 0px 0px;
+	text-align: center;
+	animation-name: SlideImg;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+}
+	
+@keyframes SlideImg{
+	
+	0%{
+		background-color: #2070D0;
+	}
+	
+	25%{
+		background-color: #081828;
+	}
+		
+	50%{
+		background-color: #2070D0;
+	}
+	75%{
+		background-color: #081828;
+	}
+	
+	100%{
+		background-color: #2070D0;
+	}
+	}
+
+
+	
+fieldset{
+	border: 3px solid #081828;
+	background-color:#081828;
+	width: 85%;
+	padding: 10px;
+	position: relative;
+	left: 7.5%;
+}
+
+fieldset p{
+	color: white;
+}
+
+
+
+
+
+#FormDetails{
+	display: flex;
+	width:100%;
+}
+
+#name{
+	padding: 20px;
+	width: 80%;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #083868;
+	color: white;
+	border: 0px;
+}
+
+
+.fa-user{
+	font-size: 15px;
+	padding: 20px;
+	width: 20%;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #2070D0;
+	color: white;
+	border: 0px;
+	text-align: center;
+	}
+	
+.fa-envelope{
+	font-size: 15px;
+	padding: 20px;
+	width: 20%;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #2070D0;
+	color: white;
+	border: 0px;
+	text-align: center;
+	}
+	
+.fa-key{
+	font-size: 15px;
+	padding: 20px;
+	width: 20%;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #2070D0;
+	color: white;
+	border: 0px;
+	text-align: center;
+	}
+
+.fa-child{
+	font-size: 15px;
+	padding: 20px;
+	width: 20%;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #2070D0;
+	color: white;
+	border: 0px;
+	text-align: center;
+	}	
+
+#name::placeholder{
+	color: white;
+}
+
+
+#name:focus{
+	background-color: white;
+	color: black;
+}
+
+
+#submit{
+	font-size: 15px;
+	padding: 20px;
+	width: 100%;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+	left: 0%;
+	background-color: #2070D0;
+	color: white;
+	border: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

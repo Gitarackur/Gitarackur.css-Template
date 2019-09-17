@@ -1,0 +1,244 @@
+@media only screen and (min-width: 600px){
+	
+* {
+    padding : 0;
+    margin : 0;
+	box-sizing: border-box;
+	font-size: 1em;
+}
+
+body {
+    background : #081828;
+    color : white;
+	width:100%;
+}
+
+
+
+
+/* the main animation contents, divs and so on */
+
+#grid{
+	display: flex;
+}
+
+#subgrid1{
+	width:50%;
+	background-color: #2070D0;
+	color: white;
+	padding:20px;
+	border: 1px solid #081828;
+}
+
+#subgrid2{
+	width:50%;
+	background-color: #081828;
+	color: black;
+	padding: 20px;
+	border: 1px solid #2070D0;
+}
+
+#movingText{
+	font-size: 30px;
+	animation-name: SlideImg;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	position: relative;
+	left: 45%;
+	width:55%;
+	color: #2070D0;
+}
+
+
+
+
+/* Animation slide*/
+
+
+@keyframes SlideImg{
+	
+	0%{
+		left: 30%;
+	}
+	
+	10%{
+		left:15%;
+	}
+	
+	20%{
+		left:0%;
+	}
+	
+	30%{
+		left: -15%;
+		
+	}
+	
+	40%{
+		left: -30%;
+		
+	}
+	
+	50%{
+		left: -45%;
+		
+	}
+	
+	60%{
+		left: -60%;
+		
+	}
+	
+	70%{
+		left: -75%;
+		
+	}
+	
+	80%{
+		left: -90%;
+		
+	}
+	
+	90%{
+		left: -105%;
+		color: white;
+	}
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+/* modal box contents */
+	
+#divContainer{
+	position: fixed;
+	left: 25%;
+	width: 50%;
+	background-color: white;
+	border:3px solid white;
+	color: black;
+	padding:50px;
+}
+
+#modal{
+	background-color: #2070D0;
+	position: fixed;
+	top:0%;
+	left:0%;
+	height:100vh;
+	width:100%;
+	display: none;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+
+/* login form proper*/
+
+#grid2{
+	display: flex;
+	margin-top: 100px;
+	box-shadow: 30px 0px 30px 0px grey;
+}
+
+#LoginPic{
+	width: 40%;
+	padding:20px;
+	background-color: #2070D0;
+}
+
+#loginForm{
+	width: 60%;
+	padding:30px;
+	background-color: #081828;
+}
+
+
+
+
+.user, .key{
+	width:100%;
+	display: flex;
+}
+
+.fa-key, .fa-user{
+	display: block;
+	width: 20%;
+	position: relative;
+	left: 0%;
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color: #2070D0;
+	color: white;
+	border:3px solid #2070D0;
+	padding:20px;
+	font-size: 50px;
+}
+
+
+#loginUser{
+	display: block;
+	width: 80%;
+	position: relative;
+	left: 0%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #083868;
+	border:0px;
+	padding:10px;
+	font-size: 30px;
+}
+
+#loginUser::placeholder{
+	color: white;
+	font-size: 30px;
+}
+
+
+#loginUser:focus{
+	background-color: white;
+	color: black;
+}
+
+
+
+#loginButton{
+	width: 100%;
+	background-color: #083868;
+	color: white;
+	padding:30px;
+	display: block;
+	margin-top:20px;
+	font-size: 2em;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

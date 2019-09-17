@@ -1,0 +1,292 @@
+@media only screen and (max-width: 600px){
+	
+* {
+    padding : 0;
+    margin : 0;
+	box-sizing: border-box;
+	font-size: 1em;
+}
+
+body {
+    background : black;
+    color : white;
+	width:100%;
+}
+
+
+#wframe{
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("../images/twoo.jpg");
+	background-size: cover;
+	height: 600px;
+	position: relative;
+	top: 0px;
+	margin:0;
+}
+
+.fa-search{
+	display: block;
+	font-size:40px;
+	position: relative;
+	left: 78%;
+	top: 10px;
+}
+
+#mainSearch{
+	display: flex;
+	margin: 3%;
+	overflow: hidden;
+	background-color: #081828;
+	width: 0%;
+	padding-top: 27.5px;
+	padding-bottom: 27.5px;
+	position: relative;
+	transition: 1s ease-in-out; 
+	z-index: 100;
+}
+
+#input{
+	display: block;
+	padding: 10px;
+	width: 65%;
+	margin-right: 2%;
+	margin-left: 4%;
+	background-color: #2070D0;
+	color: white;
+	border: none;
+}
+
+#input::placeholder{
+	color: white;
+}
+
+#button{
+	display: block;
+	padding: 10px;
+	width: 25%;
+	background-color: #2070D0;
+	color: white;
+}
+
+
+.fa-bars{
+	display: block;
+	font-size:40px;
+	position: relative;
+	left:5%;
+	top:10px;
+}
+
+#dpdwn{
+	background-color: #081828;
+	display: flex;
+	padding-top: 20px;
+	padding-bottom:20px;
+	transition: 1s ease-in-out; 
+	overflow: hidden;
+	width: 0%;
+	position: absolute;
+	top:50px;
+	z-index: 100;
+}
+
+#dpdwn a{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	color: #2070D0;
+}
+
+.fa-user{
+	font-size: 40px;
+	padding: 10px;
+}
+
+.fa-home{
+	font-size: 40px;
+	padding: 10px;
+}
+
+.fa-cog{
+	font-size: 40px;
+	padding: 10px;
+}
+
+
+/* hidden pc view navbar*/
+
+#CompNavBar{
+	display: none;
+}
+
+
+
+
+#MainSpeech{
+	width: 100%;
+	position: absolute;
+	top: 150px;
+	z-index: 0;
+}
+
+.jumbotron{
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	padding: 30px;
+}
+
+.jumbotron1{
+	text-align: center;
+	width:60%;
+	position: relative;
+	left: 20%;
+	line-height: 25px;
+}
+
+.gStarted{
+	text-align: center;
+	width: 50%;
+	display: block;
+	position: relative;
+	left: 25%;
+	padding: 30px;
+	background-color: #2070D0;
+	margin-top: 20px;
+	border-radius: 50px;
+}
+
+
+
+
+
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+#g1, #g2, #g3{
+	width:100%;
+	border-bottom: 1px solid white;
+	padding: 50px;
+	background-color: #2070D0;
+}
+
+#grid1, #grid2, #grid3{
+	width:80%;
+	padding: 60px;
+	background-color: #2070D0;
+	color: white;
+	text-align: center;
+	display: block;
+	border: 3px solid white;
+	border-radius: 50%;
+	margin: 2%;
+	position: relative;
+	left: 10%;
+}
+
+.headerText{
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	margin: 10px;
+}
+
+.g1p, .g2p, .g3p{
+	position: relative;
+	left:5%;
+	width:90%;
+	text-align: center;
+	line-height: 25px;
+}
+
+.fa-leaf{
+	font-size: 50px;
+	display: block;
+	color: white;
+}
+
+.fa-desktop{
+	font-size:50px;
+	display: block;
+	color: white;
+}
+
+.fa-book{
+	font-size:50px;
+	display: block;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+#footer{
+	width: 100%;
+	background-color: #2070D0;
+	margin-top: 50px;
+	padding: 50px;
+}
+
+#foot1, #foot2, #foot3{
+	display: block;
+	margin-bottom: 20px;
+}
+
+#foot1 a, #foot2 a, #foot3 a{
+	display: block;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,53 @@
+@media only screen and (min-width: 600px){
+	
+* {
+    padding : 0;
+    margin : 0;
+}
+
+body {
+    background : white;
+    color : black;
+	box-sizing: border-box;
+}
+
+
+
+#bloggrid1{
+	width: 33.3%;
+	background-color: skyblue;
+	padding:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
